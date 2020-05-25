@@ -1,0 +1,35 @@
+{
+    "workbench.colorCustomizations": {
+        "[Default Dark+]": {
+            "editor.background": "#2E333F",
+            "editor.lineHighlightBorder": "#3c4863",
+            "editor.hoverHighlightBackground": "#3c4863",
+            "editor.rangeHighlightBackground": "#415073",
+            "activityBar.background": "#2E333F",
+            "tab.activeBackground": "#2E333F",
+            "tab.inactiveBackground": "#383e4d",
+            "tab.border": "#1d222e",
+            "tab.activeBorder": "#b7cae8",
+            "tab.hoverBackground": "#4b546b",
+            "editorGroupHeader.tabsBackground": "#1d222e",
+            "activityBarBadge.background": "#507bc7",
+            "list.activeSelectionBackground": "#415073",
+            "list.inactiveSelectionBackground": "#3c4863",
+            "list.hoverBackground": "#2E333F",
+            "sideBar.background": "#383e4d",
+            "sideBarSectionHeader.background": "#4b546b",
+            "sideBar.border": "#415073",
+            "input.background": "#1b202b",
+            "input.foreground": "#fff",
+            "editorHoverWidget.background": "#1b202b",
+            "minimap.background": "#1e2430",
+            "editorWidget.background": "#363e50",
+            "editorWidget.border": "#363e50",
+            "peekViewEditor.background": "#1c2330",
+            "peekViewResult.background": "#1c283d"
+        },
+        "activityBar.background": "#172F46",
+        "titleBar.activeBackground": "#204262",
+        "titleBar.activeForeground": "#F7FAFC"
+    }
+}
