@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-kubernetes-demo
+  labels:
+    app: my-kubernetes-demo
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: my-kubernetes-demo
+  template:
+    metadata:
+      labels:
+        app: my-kubernetes-demo
+    spec:
+      containers:
+        - name: simple-node
+          image: willsamu/simple-node
+          ports:
+            - containerPort: 80

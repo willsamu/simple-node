@@ -5,7 +5,7 @@ function sleep(ms) {
 async function main() {
   const simpleNodeEnv = process.env.SIMPLE_NODE_ENV;
   while (true) {
-    console.log(`Containers rule! (in ${simpleNodeEnv})`);
+    console.log(`Containers rule! (in Kubernetes!)`);
     await sleep(5000);
   }
 }

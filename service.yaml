@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-kubernetes-demo
+  labels:
+    run: my-kubernetes-demo
+spec:
+  ports:
+    - port: 80
+      protocol: TCP
+  selector:
+    run: my-kubernetes-demo
